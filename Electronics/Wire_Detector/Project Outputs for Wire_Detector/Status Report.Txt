@@ -1,0 +1,21 @@
+Output: ODB++ Files
+Type  : ODB
+From  : Variant [[No Variations]] of Project [Wire_Detector.PrjPcb]
+   Generated File[profile]
+   Generated File[stephdr]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[components]
+   Generated File[data]
+   Generated File[netlist]
+   Generated File[matrix]
+   Generated File[Wire Detector PCB.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 19:49:01 On 05.10.2025

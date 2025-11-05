@@ -1,0 +1,197 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 4 142.00000048 43.00000036 0 N U1 NE555P ;0=2,1=5.0800,5=0
+PRP Category 'Timer'
+PRP Datasheet_URL 'http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=NE555&fileType=pdf'
+PRP Datasheet_Version 'Rev. I, 09/2014'
+PRP Manufacturer 'TexasInstruments'
+PRP Manufacturer_URL 'http://www.ti.com/'
+PRP Maximum_High_Level_Output_Current '-200mA'
+PRP Maximum_Low_Level_Output_Current '200mA'
+PRP Number_of_Internal_Timers '1'
+PRP Operating_Supply_Voltage '5'
+PRP Package '8PDIP'
+PRP Package_Description '8-Pin Double In-line Package, Body 9.59 x 6.35 mm, Pitch 2.54 mm'
+PRP Package_Reference 'P8'
+PRP Package_URL 'http://www.ti.com/lit/ml/mpdi001b/mpdi001b.pdf'
+PRP Packaging 'Rail/Tube'
+PRP Rad_Hard 'No'
+PRP Type 'Standard'
+TOP 0 138.19000048 46.81000036 0 N 6 4 1
+TOP 1 138.19000048 44.27000036 0 N 5 3 2
+TOP 2 138.19000048 41.73000036 0 N 3 1 3
+TOP 3 138.19000048 39.19000036 0 N 7 3 4
+TOP 4 145.81000048 39.19000036 0 N 2 1 5
+TOP 5 145.81000048 41.73000036 0 N 5 2 6
+TOP 6 145.81000048 44.27000036 0 N 1 2 7
+TOP 7 145.81000048 46.81000036 0 N 7 2 8
+#
+# CMP 1
+CMP 5 133.4999997 29.00000042 270 N R4 1K ;0=2,1=0.0000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf'
+PRP ComponentLink2Description 'Supplier #1'
+PRP ComponentLink2URL 'https://www.digikey.pl/en/products/detail/koa-speer-electronics-inc/MFS1-4CC1001F/21681477'
+PRP MPN 'MFS1/4CC1001F'
+PRP SPN#1 '2019-MFS1/4CC1001F-ND'
+PRP Supplier_#1 'DigiKey'
+PRP Value '1K'
+PRP Voltage '250V'
+TOP 0 133.4999997 29.00000042 270 N 4 1 1
+TOP 1 133.4999997 40.99999928 270 N 3 2 2
+#
+# CMP 2
+CMP 5 152.9999988 37.5000012 270 N R3 10K ;0=2,1=0.0000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf'
+PRP ComponentLink2Description 'Supplier #1'
+PRP ComponentLink2URL 'https://www.digikey.pl/en/products/detail/koa-speer-electronics-inc/MFS1-4CC1001F/21681477'
+PRP MPN 'MFS1/4CC1001F'
+PRP SPN#1 '2019-MFS1/4CC1001F-ND'
+PRP Supplier_#1 'DigiKey'
+PRP Value '10K'
+PRP Voltage '250V'
+TOP 0 152.9999988 37.5000012 270 N 5 1 1
+TOP 1 152.9999988 49.50000006 270 N 1 0 2
+#
+# CMP 3
+CMP 5 157.00000096 49.50000006 0 N R2 2K ;0=2,1=0.0000,5=0
+PRP ComponentLink1Description 'Datasheet'
+PRP ComponentLink1URL 'https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf'
+PRP ComponentLink2Description 'Supplier #1'
+PRP ComponentLink2URL 'https://www.digikey.pl/en/products/detail/koa-speer-electronics-inc/MFS1-4CC1001F/21681477'
+PRP MPN 'MFS1/4CC1001F'
+PRP SPN#1 '2019-MFS1/4CC1001F-ND'
+PRP Supplier_#1 'DigiKey'
+PRP Value '2K'
+PRP Voltage '250V'
+TOP 0 157.00000096 49.50000006 0 N 1 1 1
+TOP 1 168.99999982 49.50000006 0 N 7 1 2
+#
+# CMP 4
+CMP 0 173.50000098 44.4999999 180 N R1 3296W-1-103LF ;0=2,1=0.0000,5=0
+PRP Color 'Blue'
+PRP Contact_Plating 'Tin'
+PRP Depth '4.83mm'
+PRP Height '11.55mm'
+PRP Insulation_Resistance '1GR'
+PRP Lead_Free 'Lead Free'
+PRP Length '9.53mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Max_Power_Dissipation '500mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Turns '25'
+PRP Package_Quantity '50'
+PRP Packaging 'Rail/Tube'
+PRP Power_Rating '500mW'
+PRP Radiation_Hardening 'No'
+PRP Reach_SVHC_Compliant 'Yes'
+PRP Resistance '10kR'
+PRP Resistance_Tolerance '10%'
+PRP Resistor_Type 'Cermet'
+PRP RoHS_Compliant 'Yes'
+PRP Series '3296'
+PRP Taper 'Linear'
+PRP Technology 'CERMET'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'Pin'
+PRP Tolerance '10%'
+PRP Weight '0.03oz'
+PRP Width '9.53mm'
+TOP 0 173.49499972 47.0399999 180 N 7 0 1
+TOP 1 173.49499972 44.4999999 180 N 0 0 2
+TOP 2 173.49499972 41.9599999 180 N 2 0 3
+#
+# CMP 5
+CMP 6 172.7699999 30.49999996 0 N Q1 __103? ;0=2,1=5.3300,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/2N2608/Motorola/view-part/?ref=eda'
+PRP MF 'Motorola'
+PRP MP '2N2608'
+PRP Package 'TO-18 Motorola'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/2N2608/Motorola/view-part/?ref=snap'
+PRP Value ''
+TOP 0 171.4999999 30.49999996 0 N 2 2 1
+TOP 1 172.7699999 29.22999996 0 N 0 1 2
+TOP 2 174.0399999 30.49999996 0 N 6 3 3
+#
+# CMP 6
+CMP 1 121.50000084 35.50000012 270 N LS1 AT-1224-TWT-5V-2-R ;0=2,1=0.0000,5=0
+PRP Contact_Plating 'Tin'
+PRP Diameter '12mm'
+PRP Frequency '2.4kHz'
+PRP Height '9mm'
+PRP Max_Operating_Temperature '70°C'
+PRP Max_Supply_Current '40mA'
+PRP Min_Operating_Temperature '-30°C'
+PRP Mount 'Through Hole'
+PRP Operating_Supply_Current '40mA'
+PRP Packaging 'Tray'
+PRP Sensing_Method 'Magnetic'
+PRP Series 'AT'
+PRP Termination 'PC Pins'
+PRP Voltage_Rating '5V'
+TOP 0 121.50000084 32.249999 270 N 3 0 1
+TOP 1 121.50000084 38.75000124 270 N 6 1 2
+#
+# CMP 7
+CMP 3 157.49999996 30.00000096 0 N DS1 WP7113SGD ;0=2,1=15.5000,5=0
+PRP Case/Package 'Radial'
+PRP Colour 'Green'
+PRP Datasheet_URL 'http://www.kingbrightusa.com/images/catalog/SPEC/WP7113SGD.pdf'
+PRP Datasheet_Version 'Rev. 6B, 01/2015'
+PRP Dominant_Wavelength '568nm'
+PRP Forward_Voltage '2.2V'
+PRP Height '8.6mm'
+PRP Illumination_Colour 'Green'
+PRP Lead_Free 'LeadFree'
+PRP Lens_Style 'Tinted'
+PRP Luminous_Intensity '40mcd'
+PRP Manufacturer 'Kingbright'
+PRP Package_Description '2-Pin Through Hole Device, Dia 5.9 mm, Body Length 8.6 mm'
+PRP Package_Quantity '1000'
+PRP Package_Reference 'WP7113SGD'
+PRP Packaging 'Bulk'
+PRP RoHSCompliant 'true'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '30degrees'
+PRP Wavelength '568nm'
+TOP 0 156.22999996 30.00000096 180 N 4 0 1
+TOP 1 158.76999996 30.00000096 180 N 6 2 2
+#
+# CMP 8
+CMP 2 124.99999892 49.00000106 180 N C1 ECA1CEN470 ;0=2,1=0.0000,5=0
+PRP Capacitance '47uF'
+PRP Case/Package 'Radial'
+PRP Lead_Pitch '2.5mm'
+PRP Lead/Base_Style 'Straight'
+PRP Max_Operating_Temperature '105°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Through Hole'
+PRP Package_Quantity '200'
+PRP Packaging 'Ammo Pack'
+PRP Ripple_Current '100mA'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GA'
+PRP Termination 'Radial'
+PRP Tolerance '20%'
+PRP Voltage_Rating_(DC) '16V'
+TOP 0 126.24999896 49.00000106 180 N 6 0 1
+TOP 1 123.74999888 49.00000106 180 N 5 0 2
+#
